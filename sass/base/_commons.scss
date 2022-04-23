@@ -29,4 +29,18 @@ button {
     max-width: 100%;
     height: auto;
   }
+
+  a {
+    text-decoration: none;
+  }
   
+  body {
+    font-family: "Roboto", sans-serif;
+    color: var(--black-text);
+    font-size: 14px;
+    font-weight: 700;
+  }
+
+  .link {
+    color: inherit;
+  }

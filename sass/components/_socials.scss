@@ -1,0 +1,35 @@
+
+.socials {
+    display: flex;
+  }
+  
+  .social:not(:last-child) {
+    margin-right: 10px;
+  }
+  
+  .social-item {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    fill: var(--grey-elements);
+  }
+  
+  .social-item:hover,
+  .social-item:focus {
+    background-color: var(--accent-color);
+    color: white;
+  }
+  
+  .social-item {
+    color: var(--grey-elements);
+    transition-property: color, background-color;
+    transition-duration: 250ms;
+    transition-timing-function: var(--t-function);
+  }
+  
+  .social-icon {
+    align-self: center;
+  }

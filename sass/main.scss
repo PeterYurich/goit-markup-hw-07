@@ -1,4 +1,25 @@
-@import './base/commons';
 @import './utils/vars';
-@import './base/container';
+@import './utils/invisible';
 
+@import './base/commons';
+@import './base/container';
+@import './base/section';
+
+@import './layout/header';
+@import './layout/hero';
+@import './layout/team';
+@import './layout/footer';
+@import './layout/portfolio';
+@import './layout/about';
+@import './layout/services';
+@import './layout/filters';
+@import './layout/clients';
+
+
+@import './components/logo';
+@import './components/section-name';
+@import './components/description';
+@import './components/overlay';
+@import './components/socials';
+@import './components/backdrop';
+@import './components/modal-window';
