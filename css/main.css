@@ -1,1 +1,56 @@
-/* No CSS *//*# sourceMappingURL=main.css.map */
+button {
+  border: none;
+  cursor: pointer;
+}
+
+p,
+h1,
+h2,
+h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul,
+ol {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+.list {
+  list-style: none;
+  padding-bottom: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+:root {
+  --accent-color: #2196f3;
+  --black-text: #212121;
+  --grey-text: #757575;
+  --white-text: #ffffff;
+  --white-back: #e5e5e5;
+  --grey-back: #f5f4fa;
+  --dark-back: #2f303a;
+  --size-heder: 14px;
+  --height-heder: 1;
+  --grey-elements: #AFB1B8;
+  --duration: 250ms;
+  --t-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.container {
+  width: 1200px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.fd {
+  color: azure;
+}
+/*# sourceMappingURL=main.css.map */
