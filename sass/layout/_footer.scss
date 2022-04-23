@@ -1,62 +1,41 @@
-
-.adress {
-    line-height: 1.46;
-    font-weight: 400;
-    color: var(--white-text);
-    font-style: inherit;
-  }
-  
-  .contacts {
-    color: rgba(255, 255, 255, 0.6);
-    font-weight: 400;
-    line-height: 1.46;
-  }
-
-  .footer {
-    background-color: var(--dark-back);
-    padding: 60px 0;
-  }
-  
-  .logo-footer {
-    margin-bottom: 50px;
-  }
-  
-  .adress {
-    margin-top: 20px;
-    margin-bottom: 9px;
-  }
-  
-  .mail-footer {
-    margin-bottom: 9px;
-  }
-
-  
-.socials-footer {
-  display: flex;
-  justify-content: center;
-  /* margin: auto; */
+.address {
+  line-height: 1.46;
+  font-weight: 400;
+  color: var(--white-text);
+  font-style: inherit;
 }
 
+.contacts {
+  color: rgba(255, 255, 255, 0.6);
+  font-weight: 400;
+  line-height: 1.46;
+}
 
+.footer {
+  background-color: var(--dark-back);
+  padding: 60px 0;
+}
 
-.social-footer:not(:last-child) {
+.logo-footer {
+  margin-bottom: 50px;
+}
+
+.address {
+  margin-top: 20px;
+  margin-bottom: 9px;
+}
+
+.mail-footer {
+  margin-bottom: 9px;
+}
+
+.social-item:not(:last-child) {
   margin-right: 10px;
 }
 
-.social-footer-item {
-  width: 44px;
-  height: 44px;
-  border-radius: 50%;
-  display: flex;
-  align-content: center;
-  justify-content: center;
+.social-link-footer {
   color: #fff;
   background-color: rgba(255, 255, 255, 0.1);
-}
-
-.social-footer-item:hover,
-.social-footer-item:focus {
-  background-color: var(--accent-color);
 }
 
 .footer-container {
@@ -68,10 +47,13 @@
   margin-right: auto;
 }
 
+.subscribe-wrapper {
+  display: flex;
+}
+
 .footer-title {
   display: block;
   color: var(--white-text);
-  /* font-weight: 700; */
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
@@ -82,7 +64,7 @@
 .nav-link {
   display: flex;
 }
-  
+
 
 .subscribe-btn {
   height: 50px;
@@ -102,7 +84,7 @@
   justify-content: space-between;
   padding: 13px 28px;
 
-}  
+}
 
 .footer-input {
   background-color: var(--dark-back);
@@ -112,9 +94,10 @@
   border: 1px solid rgba(255, 255, 255, 0.3);
   padding: 15px 16px;
   color: var(--white-text);
+  margin-right: 12px;
 }
 
-.social-footer-item {
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), 
+.social-link-footer {
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
   background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }

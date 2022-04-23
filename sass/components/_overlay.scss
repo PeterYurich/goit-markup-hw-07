@@ -1,6 +1,4 @@
-
-.overlay
-{
+.overlay {
   background-color: rgba(33, 150, 243, 0.9);
   padding: 63px 24px;
   color: rgba(255, 255, 255, 1);
@@ -16,7 +14,7 @@
   overflow: visible;
   transform: translateY(101%);
   transition: 250ms
-  }
+}
 
 .wraper {
   position: relative;
@@ -26,5 +24,4 @@
 .portfolio-link:hover .overlay,
 .portfolio-link:focus .overlay {
   transform: translateY(0);
-  }
-
+}
