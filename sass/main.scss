@@ -5,6 +5,14 @@
 @import './base/container';
 @import './base/section';
 
+@import './components/logo';
+@import './components/section-title';
+@import './components/overlay';
+@import './components/social-link';
+@import './components/modal-window';
+@import './components/modal-window-form';
+@import './components/interactive';
+
 @import './layout/header';
 @import './layout/hero';
 @import './layout/team';
@@ -14,12 +22,3 @@
 @import './layout/services';
 @import './layout/filters';
 @import './layout/clients';
-
-
-@import './components/logo';
-@import './components/section-title';
-@import './components/overlay';
-@import './components/socials';
-@import './components/modal-window';
-@import './components/modal-window-form';
-@import './components/interactive';

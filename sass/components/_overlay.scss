@@ -16,11 +16,6 @@
   transition: 250ms
 }
 
-.wraper {
-  position: relative;
-  overflow: hidden;
-}
-
 .portfolio-link:hover .overlay,
 .portfolio-link:focus .overlay {
   transform: translateY(0);
