@@ -5,7 +5,7 @@
   font-style: inherit;
 }
 
-.contacts {
+.contact_footer {
   color: rgba(255, 255, 255, 0.6);
   font-weight: 400;
   line-height: 1.46;
@@ -26,14 +26,9 @@
   margin-bottom: 9px;
 }
 
-.social-item:not(:last-child) {
-  margin-right: 10px;
-}
-
-.social-link-footer {
+.social-link_footer {
   color: #fff;
   background-color: rgba(255, 255, 255, 0.1);
-  transition: background-color var(--duration) var(--t-function);
 }
 
 .footer-container {
