@@ -1,17 +1,16 @@
-
 .activity {
-    display: flex;
-  }
-  
-  .list-item:not(:last-child) {
-    margin-right: 30px;
-  }
-  
-  .section-name {
-    margin-bottom: 50px;
-    }
+  display: flex;
+}
 
-  
+.list-item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.section-name {
+  margin-bottom: 50px;
+}
+
+
 .activity-direction {
   text-transform: uppercase;
   color: #fff;
@@ -23,9 +22,8 @@
   align-items: center;
   position: absolute;
   bottom: 0;
-  }
-  
-  .activity-wrapper {
-    position: relative;
-  }
-  
+}
+
+.activity-wrapper {
+  position: relative;
+}

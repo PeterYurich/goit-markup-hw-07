@@ -5,10 +5,15 @@
 .site-nav {
   font-size: var(--size-heder);
   line-height: var(--height-heder);
+  display: flex;
 }
 
 .nav-item {
   font-weight: 500;
+
+  &:not(:last-child) {
+    margin-right: 50px;
+  }
 }
 
 .mail-header {
@@ -30,9 +35,20 @@
   align-items: center;
 }
 
-.current {
+.current-page {
   color: var(--accent-color);
   position: relative;
+
+  &::after {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 4px;
+    background-color: var(--accent-color);
+    border-radius: 2px;
+    bottom: -2px;
+  }
 }
 
 .header-container {
@@ -49,10 +65,6 @@
   padding-bottom: 32px;
 }
 
-.site-nav {
-  display: flex;
-}
-
 .nav {
   margin-left: 93px;
 }
@@ -61,10 +73,6 @@
   display: flex;
   margin-left: auto;
   align-items: center;
-}
-
-.nav-item:not(:last-child) {
-  margin-right: 50px;
 }
 
 .contact-item:first-child {
@@ -76,15 +84,4 @@
 .phone-icon {
   fill: currentColor;
   margin-right: 10px;
-}
-
-.current::after {
-  content: '';
-  position: absolute;
-  display: block;
-  width: 100%;
-  height: 4px;
-  background-color: var(--accent-color);
-  border-radius: 2px;
-  bottom: -2px;
 }

@@ -1,5 +1,6 @@
 @import './utils/vars';
 @import './utils/invisible';
+@import './utils/interactive';
 
 @import './base/commons';
 @import './base/container';
@@ -11,7 +12,6 @@
 @import './components/social-link';
 @import './components/modal-window';
 @import './components/modal-window-form';
-@import './components/interactive';
 
 @import './layout/header';
 @import './layout/hero';

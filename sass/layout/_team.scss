@@ -1,24 +1,28 @@
-
 .team {
-    font-size: 16px;
-    font-weight: 500;
-    background-color: var(--grey-back);
-    line-height: 1;
-  }
-  
-.profession {
-    color: var(--grey-text);
-    font-weight: 400;
-    margin-bottom: 16px;
-  }
+  font-size: 16px;
+  font-weight: 500;
+  background-color: var(--grey-back);
+  line-height: 1;
+}
 
-  
+.profession {
+  color: var(--grey-text);
+  font-weight: 400;
+  margin-bottom: 16px;
+}
+
+
 .stuff-desc {
   padding: 30px 32px;
 }
 
-.name {
+.employer-name {
   margin-bottom: 10px;
+}
+
+.employer-name,
+.profession {
+  text-align: center;
 }
 
 .stuff-item {
@@ -26,21 +30,15 @@
     0px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
-.stuff {
+.stuff-list {
   display: flex;
-}
-
-
-.stuff-item:not(:last-child) {
-  margin-right: 30px;
 }
 
 .stuff-item {
   background-color: #fff;
   border-radius: 4px;
-}
 
-.name,
-.profession {
-  text-align: center;
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
 }

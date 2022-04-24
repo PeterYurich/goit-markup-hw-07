@@ -16,7 +16,7 @@
   fill: var(--grey-elements);
   color: var(--grey-elements);
   transition-property: color, background-color;
-  transition-duration: 250ms;
+  transition-duration: var(--duration);
   transition-timing-function: var(--t-function);
 
   &:hover,

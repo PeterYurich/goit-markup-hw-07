@@ -1,41 +1,39 @@
 .portfolio {
-    display: flex;
-    flex-wrap: wrap;
-    margin-bottom: -30px;
-    margin-right: -30px;
-  }
-  
-  .portfolio-name {
-    color: var(--black-text);
-    margin-bottom: 4px;
-  }
-  
-  
-  .portfolio-item {
-    margin-bottom: 30px;
-    margin-right: 30px;
-    flex-basis: calc((100% - (3 * 30px)) / 3);
-  }
-  
-  
-.port-desc {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: -30px;
+  margin-right: -30px;
+}
+
+.portfolio-title {
+  color: var(--black-text);
+  margin-bottom: 4px;
+}
+
+
+.portfolio-item {
+  margin-bottom: 30px;
+  margin-right: 30px;
+  flex-basis: calc((100% - (3 * 30px)) / 3);
+}
+
+
+.portfolio-description {
   padding: 20px 24px;
   border: 1px solid #eeeeee;
   border-top: none;
 }
 
-.portfolio-link:hover,
-.portfolio-link:focus {
-  box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16), 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
-}
-
 .portfolio-link {
   display: block;
+  transition: box-shadow var(--duration) var(--t-function);
+
+  &:hover,
+  &:focus {
+    box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16), 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
+  }
 }
 
-.portfolio-link {
-  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
 
 .portfolio-name {
   font-size: 18px;
