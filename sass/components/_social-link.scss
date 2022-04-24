@@ -16,11 +16,10 @@
   fill: var(--grey-elements);
   color: var(--grey-elements);
   transition-property: color, background-color;
-  transition-duration: var(--duration);
-  transition-timing-function: var(--t-function);
+  @extend %transition-conduct;
 
   &:hover,
-  &focus {
+  &:focus {
     background-color: var(--accent-color);
     color: white;
   }

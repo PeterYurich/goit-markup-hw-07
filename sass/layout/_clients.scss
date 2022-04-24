@@ -16,8 +16,7 @@
   align-items: center;
   color: var(--grey-elements);
   transition-property: color, border-color;
-  transition-duration: var(--duration);
-  transition-timing-function: var(--t-function);
+  @extend %transition-conduct;
 
   &:hover,
   &:focus {

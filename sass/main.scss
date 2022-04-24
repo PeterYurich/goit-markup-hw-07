@@ -1,6 +1,7 @@
 @import './utils/vars';
 @import './utils/invisible';
 @import './utils/interactive';
+@import './utils/templates';
 
 @import './base/commons';
 @import './base/container';
@@ -17,7 +18,7 @@
 @import './layout/hero';
 @import './layout/team';
 @import './layout/footer';
-@import './layout/portfolio';
+@import './layout/portfolio-gallery';
 @import './layout/about';
 @import './layout/services';
 @import './layout/filters';
